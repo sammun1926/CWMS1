@@ -109,9 +109,9 @@ else
 									<div class="col-sm-8">
 								 <select name="packagetype" required class="form-control">
                 <option value="">Package Type</option>
-                <option value="1">BASIC CLEANING ($10.99)</option>
-                 <option value="2">PREMIUM CLEANING ($20.99)</option>
-                  <option value="3 ">COMPLEX CLEANING($30.99)</option>
+                <option value="1">BASIC CLEANING (Ksh300.00)</option>
+                 <option value="2">PREMIUM CLEANING (Ksh500.00)</option>
+                  <option value="3 ">COMPLEX CLEANING(Ksh1000.00)</option>
               </select>
 									</div>
 								</div>
@@ -222,7 +222,6 @@ foreach($results as $result)
 
 </div>
 <!--inner block end here-->
-<!--copy rights start here-->
 <?php include('includes/footer.php');?>
 <!--COPY rights end here-->
 </div>
