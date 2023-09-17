@@ -25,6 +25,13 @@
             </li>
             <!-- End of Employees Section -->
 
+			<li id="menu-academico"><a href="#"><i class="fa fa-money" aria-hidden="true"></i><span>Pricing</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
+                <ul id="menu-academico-sub">
+                    <li id="menu-academico-avaliacoes"><a href="add-pricing.php">Add</a></li>
+                    <li id="menu-academico-avaliacoes"><a href="manage-pricing.php">Manage</a></li>
+                </ul>
+            </li>
+
             <li id="menu-academico"><a href="#"><i class="fa fa-files-o" aria-hidden="true"></i><span>Car Washing Booking</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
                 <ul id="menu-academico-sub">
                     <li id="menu-academico-avaliacoes"><a href="new-booking.php">New</a></li>
