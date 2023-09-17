@@ -105,7 +105,8 @@ else{
 							<th width="200">Pacakge Type</th>
 							<th>Washing Point </th>
 							<th>Washing Date/Time </th>
-							<th width="200">Posting date </th>
+							<th>Car No. plate</th>
+							<!-- <th width="200">Posting date </th> -->
 							<th>Action </th>
 							
 						  </tr>
@@ -127,9 +128,9 @@ foreach($results as $result)
 							<td><?php echo htmlentities($result->fullName);?></td>
 								<td width="50">
 								<?php $ptype=$result->packageType;
-if($ptype==1): echo "BASIC CLEANING ($10.99)";endif;
-if($ptype==2): echo "PREMIUM CLEANING ($20.99)";endif;
-if($ptype==3): echo "COMPLEX CLEANING ($30.99)";endif;
+if($ptype==1): echo "BASIC CLEANING (Ksh300.00)";endif;
+if($ptype==2): echo "PREMIUM CLEANING (Ksh500.00)";endif;
+if($ptype==3): echo "COMPLEX CLEANING (Ksh1000.00)";endif;
 
 
 							?></td>
@@ -138,8 +139,7 @@ if($ptype==3): echo "COMPLEX CLEANING ($30.99)";endif;
 							<td><?php echo htmlentities($result->washingPointName	);?><br />
 								<?php echo htmlentities($result->washingPointAddress);?></td>
 							<td><?php echo htmlentities($result->washDate."/".$result->washTime);?></td>
-							
-								<td><?php echo htmlentities($result->postingDate);?></td>
+								<td><?php echo htmlentities($result->carPlate);?></td>
 				
 
 <td><a href="booking-details.php?bid=<?php echo htmlentities($result->bid);?>&&bookingid=<?php echo htmlentities($result->bookingId);?>">View</a>
